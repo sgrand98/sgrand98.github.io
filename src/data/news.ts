@@ -7,10 +7,10 @@ export interface News {
 
 export const newsData: News[] = [
   // If you don't want to show news, just make the array empty.
-  {
+  /*{
     date: "",
     title: "",
     description: "",
-    // link: "https://icml.cc/",
-  }
+    link: "https://icml.cc/",
+  }*/
 ];

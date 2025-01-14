@@ -13,4 +13,10 @@ export interface Publication {
 
 export const publicationData: Publication[] = [
   // If you don't want to show publications, just make the array empty.
+  {
+    year: "",
+    title: "TBD",
+    conference: "",
+    authors: ""
+  },
 ];

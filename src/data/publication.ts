@@ -15,8 +15,10 @@ export const publicationData: Publication[] = [
   // If you don't want to show publications, just make the array empty.
   {
     year: "",
-    title: "TBD",
     conference: "",
-    authors: ""
-  },
+    title: "",
+    authors: "",
+    // if you have an image in public/images, you can use it like this:
+    // imageUrl: "/images/publication-image.jpg"
+  }
 ];

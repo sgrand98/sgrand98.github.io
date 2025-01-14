@@ -1,10 +1,14 @@
+import { StaticImageData } from 'next/image';
+import photo from '../../pics/photo.jpg';
+
+
 export interface AboutMe {
   name: string;
   title: string;
   institution: string;
-  description: string;
+  description: string[];
   email: string;
-  imageUrl?: string;
+  imageUrl?: string | StaticImageData;
   blogUrl?: string;
   cvUrl?: string;
   googleScholarUrl?: string;
@@ -18,22 +22,21 @@ export interface AboutMe {
 }
 
 export const aboutMe: AboutMe = {
-  name: "Sébastien Grand",
+  name: "Sebastien Grand",
   title: "Ph.D. Student",
   institution: "IMT Mines Albi",
-  // Note that links work in the description
-  description:
-    "I'm a final-year <a href='https://www.stanford.edu'>PhD candidate</a> working at the intersection of causal inference and machine learning. My research focuses on developing robust, interpretable systems that can reason about cause and effect in complex environments.",
-  email: "______@stanford.edu",
-  imageUrl:
-    "https://images.unsplash.com/photo-1581481615985-ba4775734a9b?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-  googleScholarUrl: "https://scholar.google.com/citations?user=bWtMl_MAAAAJ",
-  githubUsername: "janesmith",
-  linkedinUsername: "janesmith",
-  twitterUsername: "janesmith",
-  blogUrl: "https://",
-  cvUrl: "https://",
-  institutionUrl: "https://www.stanford.edu",
-  // altName: "",
-  // secretDescription: "I like dogs.",
+  description: [
+    `<p style='font-size: larger; text-align: justify;'>Hi there, I am <b>Sébastien Grand</b>!<br><br>
+    I'm a 1st year PhD student at <a href='https://www.imt-mines-albi.fr/'>IMT Mines Albi</a>
+    working on <b>robust and adaptive Deep Multimodal Fusion</b>.<br><br>
+    Previously, I received a <b>M.S in Computer Science and Mathematics</b>, a double diploma from 
+    <a href='https://www.enseeiht.fr/fr/formation/formation-ingenieur/departement-sn/programme-sn/parcours-modia.html'>INP ENSEEIHT</a> and
+    <a href='https://www.math.insa-toulouse.fr/fr/enseignement/apprentissage-modia.html/'>INSA Toulouse</a> in 2023.<br><br>
+    Then, I worked for a year at <a href='https://epsi-radars.fr/'>EPSI Radar</a> at developing Computer Vision classification models for radar data.</p>`
+  ],
+  email: "sebastien.grand@mines-albi.fr",
+  imageUrl: photo,
+  githubUsername: "SebastienGrand98",
+  linkedinUsername: "sebastien-grand",
+  twitterUsername: "_SGrand",
 };

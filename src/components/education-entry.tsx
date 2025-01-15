@@ -30,6 +30,7 @@ export function EducationEntry({ education }: { education: Education }) {
               )}
             </p>
           )}
+          <p className="text-sm text-zinc-600 italic">{education.honors}</p>
         </div>
       </div>
     </div>

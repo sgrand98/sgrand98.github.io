@@ -23,7 +23,7 @@ export const educationData: Education[] = [
     honors: "Highest thesis grade"
   },
   {
-    degree: "B.S. in Computer Science",
+    degree: "B.S. in Electrical Engineering",
     institution: "University of Toulouse 3 Paul Sabatier",
     year: "2016 - 2019",
     honors: "Top of the class"

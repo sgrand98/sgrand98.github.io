@@ -13,6 +13,7 @@ export const educationData: Education[] = [
   {
     degree: "Ph.D. Student in Machine Learning and Computer Vision",
     institution: "IMT Mines Albi",
+    advisor: "Aurélie Montarnal, Ph.D., Bruno Mériaux, Ph.D., Frédérick Benaben, Ph.D.",
     year: "2024 - Present",
     // description: "<p style='font-size: larger;'>Working on robust and adaptive Deep Multimodal Fusion.</p>"
   },

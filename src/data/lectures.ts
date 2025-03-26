@@ -1,4 +1,6 @@
 export interface Lectures {
+    place: string;
+    class: string
     title: string;
     description?: string;
     date?: string;
@@ -7,8 +9,11 @@ export interface Lectures {
 
 export const lecturesData: Lectures[] = [
     {
+        place: "IMT Mines Albi",
+        class: "Master 1, option Data Science",
         title: "Introduction to Machine Learning",
-        description: "An overview of machine learning fundamentals.",
+        description: "39h",
+        
     },
     // Add more lecture entries as needed
 ];

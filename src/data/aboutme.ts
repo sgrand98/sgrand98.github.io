@@ -34,7 +34,7 @@ export const aboutMe: AboutMe = {
     Then, I worked for a year at <a href='https://epsi-radars.fr/'>EPSI Radar</a> at developing Computer Vision classification models for radar data.</p>`,
   email: "sebastien.grand@mines-albi.fr",
   imageUrl: photo,
-  githubUsername: "SebastienGrand98",
+  githubUsername: "sgrand98",
   linkedinUsername: "sebastien-grand",
   twitterUsername: "_SGrand",
 };

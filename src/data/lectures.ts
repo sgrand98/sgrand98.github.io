@@ -1,11 +1,11 @@
-export interface Lecture {
+export interface Lectures {
     title: string;
     description?: string;
     date?: string;
     url?: string;
 }
 
-export const lecturesData: Lecture[] = [
+export const lecturesData: Lectures[] = [
     {
         title: "Introduction to Machine Learning",
         description: "An overview of machine learning fundamentals.",

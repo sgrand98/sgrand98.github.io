@@ -8,7 +8,7 @@ export function LecturesEntry({ lectures }: { lectures: Lectures }) {
             <div className="flex flex-col flex-1">
                 <h3 className="font-serif text-md mb-3">
                 </h3>
-                {lectures.course&& (
+                {lectures.course && (
                     <p className="text-sm text-zinc-600 leading-relaxed mt-2">
                         {lectures.course}
                     </p>

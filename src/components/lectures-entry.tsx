@@ -1,4 +1,4 @@
-import { ArrowUpRight } from "lucide-react";
+// import { ArrowUpRight } from "lucide-react";
 import { Lectures } from "@/data/lectures";
 
 export function LecturesEntry({ lectures }: { lectures: Lectures }) {

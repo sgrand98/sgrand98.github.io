@@ -17,7 +17,7 @@ export const publicationData: Publication[] = [
     year: "2025",
     title: "Micro-Doppler Based Human Activity Detection under Adverse Outdoor Conditions using Vision Models",
     conference: "Coming",
-    authors: ["Sébastien Grand, Charles Piffault, Guillaume Pouget\n" 
+    authors: ["Sébastien Grand, Charles Piffault, Guillaume Pouget\n", 
              "Bruno Meriaux, Aurelie Montarnal, Frédérick Benaben"],
     // if you have an image in public/images, you can use it like this:
     // imageUrl: "/images/publication-image.jpg"
